@@ -19,7 +19,7 @@ default[:sidekiq] = {
   
   # Queues
   :queues => {
-    :mailer => 2,
+    :mailers => 2,
     :default => 1
   },
   
